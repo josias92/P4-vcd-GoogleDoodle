@@ -1,0 +1,53 @@
+/* Stage */
+#stage {
+  background: ;
+  height: 300px;
+  width: 600px;
+
+}
+
+/* I chose primary colors to match the logo */
+/* I chose bouncy animation to be attention grabbing, but slowed the logo entrance to convey a friendly motion, a hover state makes the logo playful */
+
+svg {
+  margin: 57px 10px;
+  transition: opacity 1s;
+}
+
+.day {
+  fill: yellow;
+  animation: bounceInUp 1.35s;
+}
+
+.happy {
+  fill: blue;
+  animation: bounceInLeft 1s ease-in-out;
+}
+
+.triangle {
+  fill: yellow;
+  animation: bounceInUp 2.20s;
+}
+
+.circle {
+  fill: red;
+  animation: bounceInUp 2.25s;
+}
+
+.rectangle {
+  fill: blue;
+  animation: bounceInUp 2.3s;
+}
+
+.exc {
+  fill: red;
+  animation: bounceInUp 1.25s;
+}
+
+.vcd:hover {
+  animation: pulse 1s;
+}
+
+.svg:active {
+  opacity: .42;
+}
